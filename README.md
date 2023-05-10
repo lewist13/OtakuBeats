@@ -1,4 +1,4 @@
-# AniSearch
+# OtakuBeats
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -7,7 +7,7 @@
 
 ## Overview
 ### Description
-AniMusic is an app that allows users to find and listen to anime songs based on the anime they search for. Users can upload YouTube links of anime soundtracks, and the app will use the Kitsu API for anime searching and details, and YouTube API for embedded video playback. The app aims to create a central platform for anime music enthusiasts to discover, share, and enjoy their favorite anime songs.
+OtakuBeats is an app that allows users to find and listen to anime songs based on the anime they search for. Users can upload YouTube links of anime soundtracks, and the app will use the Kitsu API for anime searching and details, and YouTube API for embedded video playback. The app aims to create a central platform for anime music enthusiasts to discover, share, and enjoy their favorite anime songs.
 
 ### App Evaluation
 - **Category:** Entertainment / Music
@@ -15,7 +15,7 @@ AniMusic is an app that allows users to find and listen to anime songs based on 
 - **Story:** Utilizes the Kitsu API to help users search for anime titles and view their details, while the YouTube API enables embedded video playback of uploaded anime soundtracks. Users can explore songs based on filters like genre, type, and length.
 - **Market:** The primary target audience for this app would be anime and music enthusiasts who are interested in discovering, sharing, and enjoying anime soundtracks. The app could cater to a wide range of users, from casual anime viewers to dedicated fans.
 - **Habit:** Users would engage with the app regularly to discover new anime soundtracks, manage their favorite songs, and contribute by uploading YouTube links. The frequency of use could vary depending on the user's anime and music interests.
-- **Scope:** The initial version of AniMusic would focus on key features such as anime search, soundtrack playback, user authentication, and song uploading. Future expansions could include user-curated playlists, social sharing features, integration with other music streaming services, and personalized recommendations.
+- **Scope:** The initial version of OtakuBeats would focus on key features such as anime search, soundtrack playback, user authentication, and song uploading. Future expansions could include user-curated playlists, social sharing features, integration with other music streaming services, and personalized recommendations.
 
 ## Product Spec
 ### User Stories (Required and Optional)
