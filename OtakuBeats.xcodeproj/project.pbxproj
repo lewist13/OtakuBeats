@@ -14,6 +14,9 @@
 		B31D61E42A0C48030077A8CF /* OtakuBeatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D61E32A0C48030077A8CF /* OtakuBeatsTests.swift */; };
 		B31D61EE2A0C48030077A8CF /* OtakuBeatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D61ED2A0C48030077A8CF /* OtakuBeatsUITests.swift */; };
 		B31D61F02A0C48030077A8CF /* OtakuBeatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D61EF2A0C48030077A8CF /* OtakuBeatsUITestsLaunchTests.swift */; };
+		B31D61FE2A0C48C40077A8CF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B31D61FD2A0C48C40077A8CF /* FirebaseAnalytics */; };
+		B31D62002A0C48C40077A8CF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B31D61FF2A0C48C40077A8CF /* FirebaseAuth */; };
+		B31D62022A0C49ED0077A8CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B31D62012A0C49ED0077A8CF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,7 @@
 		B31D61E92A0C48030077A8CF /* OtakuBeatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtakuBeatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31D61ED2A0C48030077A8CF /* OtakuBeatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuBeatsUITests.swift; sourceTree = "<group>"; };
 		B31D61EF2A0C48030077A8CF /* OtakuBeatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuBeatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B31D62012A0C49ED0077A8CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31D61FE2A0C48C40077A8CF /* FirebaseAnalytics in Frameworks */,
+				B31D62002A0C48C40077A8CF /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +103,7 @@
 				B31D61D22A0C48020077A8CF /* OtakuBeatsApp.swift */,
 				B31D61D42A0C48020077A8CF /* ContentView.swift */,
 				B31D61D62A0C48030077A8CF /* Assets.xcassets */,
+				B31D62012A0C49ED0077A8CF /* GoogleService-Info.plist */,
 				B31D61D82A0C48030077A8CF /* Preview Content */,
 			);
 			path = OtakuBeats;
@@ -143,6 +150,10 @@
 			dependencies = (
 			);
 			name = OtakuBeats;
+			packageProductDependencies = (
+				B31D61FD2A0C48C40077A8CF /* FirebaseAnalytics */,
+				B31D61FF2A0C48C40077A8CF /* FirebaseAuth */,
+			);
 			productName = OtakuBeats;
 			productReference = B31D61CF2A0C48020077A8CF /* OtakuBeats.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = B31D61C62A0C48020077A8CF;
+			packageReferences = (
+				B31D61FC2A0C48C40077A8CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B31D61D02A0C48020077A8CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +247,7 @@
 			files = (
 				B31D61DA2A0C48030077A8CF /* Preview Assets.xcassets in Resources */,
 				B31D61D72A0C48030077A8CF /* Assets.xcassets in Resources */,
+				B31D62022A0C49ED0077A8CF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -425,6 +440,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +470,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +600,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B31D61FC2A0C48C40077A8CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B31D61FD2A0C48C40077A8CF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B31D61FC2A0C48C40077A8CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B31D61FF2A0C48C40077A8CF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B31D61FC2A0C48C40077A8CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B31D61C72A0C48020077A8CF /* Project object */;
 }
