@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B31D61D32A0C48020077A8CF /* OtakuBeatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D61D22A0C48020077A8CF /* OtakuBeatsApp.swift */; };
+		B31D61D52A0C48020077A8CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D61D42A0C48020077A8CF /* ContentView.swift */; };
+		B31D61D72A0C48030077A8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31D61D62A0C48030077A8CF /* Assets.xcassets */; };
+		B31D61DA2A0C48030077A8CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31D61D92A0C48030077A8CF /* Preview Assets.xcassets */; };
+		B31D61E42A0C48030077A8CF /* OtakuBeatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D61E32A0C48030077A8CF /* OtakuBeatsTests.swift */; };
+		B31D61EE2A0C48030077A8CF /* OtakuBeatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D61ED2A0C48030077A8CF /* OtakuBeatsUITests.swift */; };
+		B31D61F02A0C48030077A8CF /* OtakuBeatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D61EF2A0C48030077A8CF /* OtakuBeatsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B31D61E02A0C48030077A8CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31D61C72A0C48020077A8CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31D61CE2A0C48020077A8CF;
+			remoteInfo = OtakuBeats;
+		};
+		B31D61EA2A0C48030077A8CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31D61C72A0C48020077A8CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31D61CE2A0C48020077A8CF;
+			remoteInfo = OtakuBeats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B31D61CF2A0C48020077A8CF /* OtakuBeats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtakuBeats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31D61D22A0C48020077A8CF /* OtakuBeatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuBeatsApp.swift; sourceTree = "<group>"; };
+		B31D61D42A0C48020077A8CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B31D61D62A0C48030077A8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B31D61D92A0C48030077A8CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B31D61DF2A0C48030077A8CF /* OtakuBeatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtakuBeatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31D61E32A0C48030077A8CF /* OtakuBeatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuBeatsTests.swift; sourceTree = "<group>"; };
+		B31D61E92A0C48030077A8CF /* OtakuBeatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtakuBeatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31D61ED2A0C48030077A8CF /* OtakuBeatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuBeatsUITests.swift; sourceTree = "<group>"; };
+		B31D61EF2A0C48030077A8CF /* OtakuBeatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuBeatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B31D61CC2A0C48020077A8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31D61DC2A0C48030077A8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31D61E62A0C48030077A8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B31D61C62A0C48020077A8CF = {
+			isa = PBXGroup;
+			children = (
+				B31D61D12A0C48020077A8CF /* OtakuBeats */,
+				B31D61E22A0C48030077A8CF /* OtakuBeatsTests */,
+				B31D61EC2A0C48030077A8CF /* OtakuBeatsUITests */,
+				B31D61D02A0C48020077A8CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B31D61D02A0C48020077A8CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B31D61CF2A0C48020077A8CF /* OtakuBeats.app */,
+				B31D61DF2A0C48030077A8CF /* OtakuBeatsTests.xctest */,
+				B31D61E92A0C48030077A8CF /* OtakuBeatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B31D61D12A0C48020077A8CF /* OtakuBeats */ = {
+			isa = PBXGroup;
+			children = (
+				B31D61D22A0C48020077A8CF /* OtakuBeatsApp.swift */,
+				B31D61D42A0C48020077A8CF /* ContentView.swift */,
+				B31D61D62A0C48030077A8CF /* Assets.xcassets */,
+				B31D61D82A0C48030077A8CF /* Preview Content */,
+			);
+			path = OtakuBeats;
+			sourceTree = "<group>";
+		};
+		B31D61D82A0C48030077A8CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B31D61D92A0C48030077A8CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B31D61E22A0C48030077A8CF /* OtakuBeatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B31D61E32A0C48030077A8CF /* OtakuBeatsTests.swift */,
+			);
+			path = OtakuBeatsTests;
+			sourceTree = "<group>";
+		};
+		B31D61EC2A0C48030077A8CF /* OtakuBeatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B31D61ED2A0C48030077A8CF /* OtakuBeatsUITests.swift */,
+				B31D61EF2A0C48030077A8CF /* OtakuBeatsUITestsLaunchTests.swift */,
+			);
+			path = OtakuBeatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B31D61CE2A0C48020077A8CF /* OtakuBeats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31D61F32A0C48030077A8CF /* Build configuration list for PBXNativeTarget "OtakuBeats" */;
+			buildPhases = (
+				B31D61CB2A0C48020077A8CF /* Sources */,
+				B31D61CC2A0C48020077A8CF /* Frameworks */,
+				B31D61CD2A0C48020077A8CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OtakuBeats;
+			productName = OtakuBeats;
+			productReference = B31D61CF2A0C48020077A8CF /* OtakuBeats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B31D61DE2A0C48030077A8CF /* OtakuBeatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31D61F62A0C48030077A8CF /* Build configuration list for PBXNativeTarget "OtakuBeatsTests" */;
+			buildPhases = (
+				B31D61DB2A0C48030077A8CF /* Sources */,
+				B31D61DC2A0C48030077A8CF /* Frameworks */,
+				B31D61DD2A0C48030077A8CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31D61E12A0C48030077A8CF /* PBXTargetDependency */,
+			);
+			name = OtakuBeatsTests;
+			productName = OtakuBeatsTests;
+			productReference = B31D61DF2A0C48030077A8CF /* OtakuBeatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B31D61E82A0C48030077A8CF /* OtakuBeatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31D61F92A0C48030077A8CF /* Build configuration list for PBXNativeTarget "OtakuBeatsUITests" */;
+			buildPhases = (
+				B31D61E52A0C48030077A8CF /* Sources */,
+				B31D61E62A0C48030077A8CF /* Frameworks */,
+				B31D61E72A0C48030077A8CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31D61EB2A0C48030077A8CF /* PBXTargetDependency */,
+			);
+			name = OtakuBeatsUITests;
+			productName = OtakuBeatsUITests;
+			productReference = B31D61E92A0C48030077A8CF /* OtakuBeatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31D61C72A0C48020077A8CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B31D61CE2A0C48020077A8CF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B31D61DE2A0C48030077A8CF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B31D61CE2A0C48020077A8CF;
+					};
+					B31D61E82A0C48030077A8CF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B31D61CE2A0C48020077A8CF;
+					};
+				};
+			};
+			buildConfigurationList = B31D61CA2A0C48020077A8CF /* Build configuration list for PBXProject "OtakuBeats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B31D61C62A0C48020077A8CF;
+			productRefGroup = B31D61D02A0C48020077A8CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B31D61CE2A0C48020077A8CF /* OtakuBeats */,
+				B31D61DE2A0C48030077A8CF /* OtakuBeatsTests */,
+				B31D61E82A0C48030077A8CF /* OtakuBeatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B31D61CD2A0C48020077A8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31D61DA2A0C48030077A8CF /* Preview Assets.xcassets in Resources */,
+				B31D61D72A0C48030077A8CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31D61DD2A0C48030077A8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31D61E72A0C48030077A8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B31D61CB2A0C48020077A8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31D61D52A0C48020077A8CF /* ContentView.swift in Sources */,
+				B31D61D32A0C48020077A8CF /* OtakuBeatsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31D61DB2A0C48030077A8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31D61E42A0C48030077A8CF /* OtakuBeatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31D61E52A0C48030077A8CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31D61EE2A0C48030077A8CF /* OtakuBeatsUITests.swift in Sources */,
+				B31D61F02A0C48030077A8CF /* OtakuBeatsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B31D61E12A0C48030077A8CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31D61CE2A0C48020077A8CF /* OtakuBeats */;
+			targetProxy = B31D61E02A0C48030077A8CF /* PBXContainerItemProxy */;
+		};
+		B31D61EB2A0C48030077A8CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31D61CE2A0C48020077A8CF /* OtakuBeats */;
+			targetProxy = B31D61EA2A0C48030077A8CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B31D61F12A0C48030077A8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B31D61F22A0C48030077A8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B31D61F42A0C48030077A8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OtakuBeats/Preview Content\"";
+				DEVELOPMENT_TEAM = XFG5L8LD8A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TaeGar.OtakuBeats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B31D61F52A0C48030077A8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OtakuBeats/Preview Content\"";
+				DEVELOPMENT_TEAM = XFG5L8LD8A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TaeGar.OtakuBeats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B31D61F72A0C48030077A8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFG5L8LD8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TaeGar.OtakuBeatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OtakuBeats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OtakuBeats";
+			};
+			name = Debug;
+		};
+		B31D61F82A0C48030077A8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFG5L8LD8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TaeGar.OtakuBeatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OtakuBeats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OtakuBeats";
+			};
+			name = Release;
+		};
+		B31D61FA2A0C48030077A8CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFG5L8LD8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TaeGar.OtakuBeatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OtakuBeats;
+			};
+			name = Debug;
+		};
+		B31D61FB2A0C48030077A8CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFG5L8LD8A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TaeGar.OtakuBeatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OtakuBeats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B31D61CA2A0C48020077A8CF /* Build configuration list for PBXProject "OtakuBeats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31D61F12A0C48030077A8CF /* Debug */,
+				B31D61F22A0C48030077A8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31D61F32A0C48030077A8CF /* Build configuration list for PBXNativeTarget "OtakuBeats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31D61F42A0C48030077A8CF /* Debug */,
+				B31D61F52A0C48030077A8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31D61F62A0C48030077A8CF /* Build configuration list for PBXNativeTarget "OtakuBeatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31D61F72A0C48030077A8CF /* Debug */,
+				B31D61F82A0C48030077A8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31D61F92A0C48030077A8CF /* Build configuration list for PBXNativeTarget "OtakuBeatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31D61FA2A0C48030077A8CF /* Debug */,
+				B31D61FB2A0C48030077A8CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31D61C72A0C48020077A8CF /* Project object */;
+}
