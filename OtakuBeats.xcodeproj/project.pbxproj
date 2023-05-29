@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CBA5F8E2A0EDC380024166E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA5F8D2A0EDC380024166E /* Song.swift */; };
+		4CBA5F902A129AEE0024166E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA5F8F2A129AEE0024166E /* SearchBar.swift */; };
 		B31D61D32A0C48020077A8CF /* OtakuBeatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D61D22A0C48020077A8CF /* OtakuBeatsApp.swift */; };
 		B31D61D52A0C48020077A8CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D61D42A0C48020077A8CF /* ContentView.swift */; };
 		B31D61D72A0C48030077A8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31D61D62A0C48030077A8CF /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CBA5F8D2A0EDC380024166E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		4CBA5F8F2A129AEE0024166E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		B31D61CF2A0C48020077A8CF /* OtakuBeats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtakuBeats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31D61D22A0C48020077A8CF /* OtakuBeatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuBeatsApp.swift; sourceTree = "<group>"; };
 		B31D61D42A0C48020077A8CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,9 +81,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CBA5F882A0C5F740024166E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CBA5F8D2A0EDC380024166E /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B31D61C62A0C48020077A8CF = {
 			isa = PBXGroup;
 			children = (
+				4CBA5F882A0C5F740024166E /* Models */,
 				B31D61D12A0C48020077A8CF /* OtakuBeats */,
 				B31D61E22A0C48030077A8CF /* OtakuBeatsTests */,
 				B31D61EC2A0C48030077A8CF /* OtakuBeatsUITests */,
@@ -105,6 +118,7 @@
 				B31D61D42A0C48020077A8CF /* ContentView.swift */,
 				B31D61D62A0C48030077A8CF /* Assets.xcassets */,
 				B31D61D82A0C48030077A8CF /* Preview Content */,
+				4CBA5F8F2A129AEE0024166E /* SearchBar.swift */,
 			);
 			path = OtakuBeats;
 			sourceTree = "<group>";
@@ -273,6 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31D61D52A0C48020077A8CF /* ContentView.swift in Sources */,
+				4CBA5F902A129AEE0024166E /* SearchBar.swift in Sources */,
+				4CBA5F8E2A0EDC380024166E /* Song.swift in Sources */,
 				B31D61D32A0C48020077A8CF /* OtakuBeatsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
