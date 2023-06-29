@@ -19,6 +19,14 @@
 		B31D61FE2A0C48C40077A8CF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B31D61FD2A0C48C40077A8CF /* FirebaseAnalytics */; };
 		B31D62002A0C48C40077A8CF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B31D61FF2A0C48C40077A8CF /* FirebaseAuth */; };
 		B31D62042A0C4CD70077A8CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B31D62032A0C4CD70077A8CF /* GoogleService-Info.plist */; };
+		B32AA4E52A4E09CC003A6A09 /* AppleMusicExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AA4E42A4E09CC003A6A09 /* AppleMusicExampleView.swift */; };
+		B352C1CC2A4CB3EB00D4A521 /* YouTubeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B352C1CB2A4CB3EB00D4A521 /* YouTubeExampleView.swift */; };
+		B3A4CFFF2A4DDC0E00592258 /* SpotifyExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A4CFFE2A4DDC0E00592258 /* SpotifyExampleView.swift */; };
+		B3BC41702A4DF84500C0912A /* AnimeRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC416F2A4DF84500C0912A /* AnimeRequestTests.swift */; };
+		B3F8ED642A4386D600B72014 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED632A4386D600B72014 /* Anime.swift */; };
+		B3F8ED672A43874400B72014 /* KitsuRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED662A43874400B72014 /* KitsuRequest.swift */; };
+		B3F8ED692A438D3D00B72014 /* AnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED682A438D3D00B72014 /* AnimeViewModel.swift */; };
+		B3F8ED6B2A438E6B00B72014 /* AnimeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8ED6A2A438E6B00B72014 /* AnimeExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +60,15 @@
 		B31D61ED2A0C48030077A8CF /* OtakuBeatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuBeatsUITests.swift; sourceTree = "<group>"; };
 		B31D61EF2A0C48030077A8CF /* OtakuBeatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuBeatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B31D62032A0C4CD70077A8CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B32AA4E42A4E09CC003A6A09 /* AppleMusicExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicExampleView.swift; sourceTree = "<group>"; };
+		B352C1CB2A4CB3EB00D4A521 /* YouTubeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeExampleView.swift; sourceTree = "<group>"; };
 		B390F67D2A252B3400B5C92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B3A4CFFE2A4DDC0E00592258 /* SpotifyExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyExampleView.swift; sourceTree = "<group>"; };
+		B3BC416F2A4DF84500C0912A /* AnimeRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeRequestTests.swift; sourceTree = "<group>"; };
+		B3F8ED632A4386D600B72014 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		B3F8ED662A43874400B72014 /* KitsuRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitsuRequest.swift; sourceTree = "<group>"; };
+		B3F8ED682A438D3D00B72014 /* AnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewModel.swift; sourceTree = "<group>"; };
+		B3F8ED6A2A438E6B00B72014 /* AnimeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				4CBA5F8D2A0EDC380024166E /* Song.swift */,
+				B3F8ED632A4386D600B72014 /* Anime.swift */,
+				B3F8ED682A438D3D00B72014 /* AnimeViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,6 +111,7 @@
 		B31D61C62A0C48020077A8CF = {
 			isa = PBXGroup;
 			children = (
+				B3F8ED652A43871D00B72014 /* Network */,
 				4CBA5F882A0C5F740024166E /* Models */,
 				B31D61D12A0C48020077A8CF /* OtakuBeats */,
 				B31D61E22A0C48030077A8CF /* OtakuBeatsTests */,
@@ -121,6 +140,10 @@
 				B31D61D62A0C48030077A8CF /* Assets.xcassets */,
 				B31D61D82A0C48030077A8CF /* Preview Content */,
 				4CBA5F8F2A129AEE0024166E /* SearchBar.swift */,
+				B3F8ED6A2A438E6B00B72014 /* AnimeExampleView.swift */,
+				B352C1CB2A4CB3EB00D4A521 /* YouTubeExampleView.swift */,
+				B3A4CFFE2A4DDC0E00592258 /* SpotifyExampleView.swift */,
+				B32AA4E42A4E09CC003A6A09 /* AppleMusicExampleView.swift */,
 			);
 			path = OtakuBeats;
 			sourceTree = "<group>";
@@ -137,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				B31D61E32A0C48030077A8CF /* OtakuBeatsTests.swift */,
+				B3BC416F2A4DF84500C0912A /* AnimeRequestTests.swift */,
 			);
 			path = OtakuBeatsTests;
 			sourceTree = "<group>";
@@ -148,6 +172,14 @@
 				B31D61EF2A0C48030077A8CF /* OtakuBeatsUITestsLaunchTests.swift */,
 			);
 			path = OtakuBeatsUITests;
+			sourceTree = "<group>";
+		};
+		B3F8ED652A43871D00B72014 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B3F8ED662A43874400B72014 /* KitsuRequest.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,9 +321,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31D61D52A0C48020077A8CF /* ContentView.swift in Sources */,
+				B3F8ED642A4386D600B72014 /* Anime.swift in Sources */,
+				B3F8ED672A43874400B72014 /* KitsuRequest.swift in Sources */,
+				B3F8ED6B2A438E6B00B72014 /* AnimeExampleView.swift in Sources */,
 				4CBA5F902A129AEE0024166E /* SearchBar.swift in Sources */,
 				4CBA5F8E2A0EDC380024166E /* Song.swift in Sources */,
+				B3A4CFFF2A4DDC0E00592258 /* SpotifyExampleView.swift in Sources */,
 				B31D61D32A0C48020077A8CF /* OtakuBeatsApp.swift in Sources */,
+				B3F8ED692A438D3D00B72014 /* AnimeViewModel.swift in Sources */,
+				B32AA4E52A4E09CC003A6A09 /* AppleMusicExampleView.swift in Sources */,
+				B352C1CC2A4CB3EB00D4A521 /* YouTubeExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BC41702A4DF84500C0912A /* AnimeRequestTests.swift in Sources */,
 				B31D61E42A0C48030077A8CF /* OtakuBeatsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
