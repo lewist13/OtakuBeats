@@ -8,8 +8,6 @@
 import SwiftUI
 import Combine
 
-import Combine
-
 class AnimeViewModel: ObservableObject {
     @Published var animeTitlesEn = [String]()
     @Published var animeTitlesEnJp = [String]()
