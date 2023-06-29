@@ -9,29 +9,46 @@ import SwiftUI
 import WebKit
 
 struct YouTubeExampleView: View {
+    let shareLink = "https://www.youtube.com/watch?v=fJYhWP_O3AI"
+    
     var body: some View {
-        YouTubeVideoPlayerView(videoId: "fJYhWP_O3AI")
+        if let embedUrl = extractVideoIdAndConstructEmbedUrl(shareLink: shareLink) {
+            YouTubeVideoPlayerView(youtubeEmbedUrl: embedUrl)
+        } else {
+            Text("Invalid Share Link")
+        }
+    }
+    
+    func extractVideoIdAndConstructEmbedUrl(shareLink: String) -> String? {
+        guard let url = URL(string: shareLink),
+              let components = URLComponents(url: url, resolvingAgainstBaseURL: false),
+              let pathComponents = URL(string: components.path)?.pathComponents,
+              let queryItems = components.queryItems,
+              let videoIdItem = queryItems.first(where: { $0.name == "v" }) else { return nil }
+        
+        guard pathComponents.count > 1, pathComponents[1] == "watch", let videoId = videoIdItem.value else { return nil }
+        
+        return "https://www.youtube.com/embed/\(videoId)"
     }
 }
 
 struct YouTubeVideoPlayerView: View {
-    var videoId: String
+    var youtubeEmbedUrl: String
 
     var body: some View {
-        YouTubeWebView(videoId: videoId)
+        YouTubeWebView(youtubeEmbedUrl: youtubeEmbedUrl)
     }
 }
 
 struct YouTubeWebView: UIViewRepresentable {
-    let videoId: String
+    let youtubeEmbedUrl: String
 
     func makeUIView(context: Context) -> WKWebView {
         return WKWebView()
     }
 
     func updateUIView(_ uiView: WKWebView, context: Context) {
-        let embedUrl = "https://www.youtube.com/embed/\(videoId)"
-        if let url = URL(string: embedUrl) {
+        if let url = URL(string: youtubeEmbedUrl) {
             let request = URLRequest(url: url)
             uiView.load(request)
         }
