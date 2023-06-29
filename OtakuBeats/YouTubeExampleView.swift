@@ -37,17 +37,32 @@ struct YouTubeWebView: UIViewRepresentable {
         }
     }
 
+        // MARK: - Coordinator Creation
+    
+        /// This function is called to create a coordinator instance.
+        /// The coordinator is not strictly necessary for the basic functionality
+        /// of the WebView, but it is useful for responding to WebView's lifecycle
+        /// events and communicating back to the YouTubeWebView.
+        ///
+        /// - Returns: A new Coordinator instance.
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }
-
+    
+        // MARK: - Coordinator Class
+    
+        /// The Coordinator class acts as a delegate for the WebView, allowing
+        /// the handling of navigation events, loading errors, and other web content-related events.
+        /// While not essential for loading a YouTube video, it is useful for handling errors and
+        /// other web navigation events in a more sophisticated manner.
     class Coordinator: NSObject, WKNavigationDelegate {
         var parent: YouTubeWebView
-
+        
         init(_ parent: YouTubeWebView) {
             self.parent = parent
         }
-
+        
+            /// Called when the WebView’s web content process is terminated.
         func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
             print("Error loading: \(error.localizedDescription)")
         }
